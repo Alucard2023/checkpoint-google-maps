@@ -1,0 +1,53 @@
+/* App.css */
+
+/* Reset default margins and paddings */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the whole app */
+body {
+  background-color: #f8f8f8;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.App-header h1 {
+  margin: 0;
+}
+
+/* Main content styles */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 140px); /* Adjust the height to center the map bloc */
+}
+
+/* Google Map styles */
+/* Adjust the size of the map bloc */
+.main-map {
+  width: 800px;
+  height: 600px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
